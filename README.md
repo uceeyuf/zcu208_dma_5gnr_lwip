@@ -109,6 +109,24 @@ b = E.read(hex2dec('10001000'), 16384*1024);
 
 　
 
+## Citation
+
+If this work helps your research, please cite it:
+
+```bibtex
+@misc{yu2026zcu208_5gnr,
+    author = {Yijie Yu},
+    title = {{ZCU208 5G NR play/capture over Ethernet}},
+    year = {2026},
+    howpublished = {\url{https://github.com/uceeyuf/zcu208_dma_5gnr_lwip}},
+    note = {GitHub repository},
+}
+```
+
+GitHub also offers the citation under **Cite this repository** (from [CITATION.cff](CITATION.cff)).
+
+　
+
 ## Licence
 
 BSD 3-Clause for the new work in this repository; files from the Xilinx RFSoC starter design keep their original
@@ -214,6 +232,24 @@ b = E.read(hex2dec('10001000'), 16384*1024);
 ```
 
 `play_capture_eth` 封装了以上步骤。通信协议、内存格式和控制台命令见 [docs/matlab_library.md](docs/matlab_library.md)。
+
+　
+
+## 引用
+
+如果这个项目对你的研究有帮助，请引用：
+
+```bibtex
+@misc{yu2026zcu208_5gnr,
+    author = {Yijie Yu},
+    title = {{ZCU208 5G NR play/capture over Ethernet}},
+    year = {2026},
+    howpublished = {\url{https://github.com/uceeyuf/zcu208_dma_5gnr_lwip}},
+    note = {GitHub repository},
+}
+```
+
+GitHub 仓库页的 **Cite this repository** 也提供同样的引用（来自 [CITATION.cff](CITATION.cff)）。
 
 　
 
